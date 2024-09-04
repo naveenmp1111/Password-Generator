@@ -5,7 +5,7 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyARaRXFPUrNEcVSSMKQ-CCULDoG5rrbjTA",
+    apiKey:import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "passwordgenerator-dda7f.firebaseapp.com",
     projectId: "passwordgenerator-dda7f",
     storageBucket: "passwordgenerator-dda7f.appspot.com",
